@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ReceivingVC.swift
 //  ProtocolDelegate
 //
 //  Created by Gustavo on 10/11/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ReceivingVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

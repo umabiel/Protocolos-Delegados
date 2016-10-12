@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EC7CAD0D1DADF03500AE27C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CAD0C1DADF03500AE27C5 /* AppDelegate.swift */; };
-		EC7CAD0F1DADF03500AE27C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CAD0E1DADF03500AE27C5 /* ViewController.swift */; };
+		EC7CAD0F1DADF03500AE27C5 /* ReceivingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CAD0E1DADF03500AE27C5 /* ReceivingVC.swift */; };
 		EC7CAD121DADF03500AE27C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7CAD101DADF03500AE27C5 /* Main.storyboard */; };
 		EC7CAD141DADF03500AE27C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7CAD131DADF03500AE27C5 /* Assets.xcassets */; };
 		EC7CAD171DADF03500AE27C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7CAD151DADF03500AE27C5 /* LaunchScreen.storyboard */; };
+		EC7CAD1F1DADF20300AE27C5 /* SendinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7CAD1E1DADF20300AE27C5 /* SendinVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC7CAD091DADF03500AE27C5 /* ProtocolDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7CAD0C1DADF03500AE27C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC7CAD0E1DADF03500AE27C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC7CAD0E1DADF03500AE27C5 /* ReceivingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingVC.swift; sourceTree = "<group>"; };
 		EC7CAD111DADF03500AE27C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC7CAD131DADF03500AE27C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC7CAD161DADF03500AE27C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC7CAD181DADF03500AE27C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7CAD1E1DADF20300AE27C5 /* SendinVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendinVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				EC7CAD0C1DADF03500AE27C5 /* AppDelegate.swift */,
-				EC7CAD0E1DADF03500AE27C5 /* ViewController.swift */,
+				EC7CAD0E1DADF03500AE27C5 /* ReceivingVC.swift */,
+				EC7CAD1E1DADF20300AE27C5 /* SendinVC.swift */,
 				EC7CAD101DADF03500AE27C5 /* Main.storyboard */,
 				EC7CAD131DADF03500AE27C5 /* Assets.xcassets */,
 				EC7CAD151DADF03500AE27C5 /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7CAD0F1DADF03500AE27C5 /* ViewController.swift in Sources */,
+				EC7CAD1F1DADF20300AE27C5 /* SendinVC.swift in Sources */,
+				EC7CAD0F1DADF03500AE27C5 /* ReceivingVC.swift in Sources */,
 				EC7CAD0D1DADF03500AE27C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
